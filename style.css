@@ -79,12 +79,7 @@ p {
 
 .bg2{
     background: url('./img/121.jpg');
-    color: #321
-}
-
-.bg3{
-    background: url('./img/124.jpg');
-    color: #320
+    color: rgb(15, 185, 72)
 }
 
 .shadowbox {
