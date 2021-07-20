@@ -3,9 +3,11 @@ family=Roboto:wght@300;400&display=swap');
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0
+    margin: 0; 
+    padding: 0;
 }
+
+
 
 body{
     background: #333;
@@ -16,6 +18,8 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    /*grid fr單位*/
+    /*margin、padding網頁邊寬距離,字距離*/
     grid-gap: 10px;
 }
 
@@ -30,6 +34,7 @@ body{
     justify-content: center;
     text-align: center;
     transition: all 0.5s ease-in;
+    /*> 是指進container 直接碰到div*/
 }
 
 .container > div:hover {
@@ -78,10 +83,9 @@ p {
 }
 
 .bg2{
-    background: url('./img/121.jpg');
-    color: rgb(15, 185, 72)
+    background: url('./img/123.jpg');
+    color: rgb(29, 240, 10)
 }
-
 .shadowbox {
     width: 15em;
     border: 1px solid #333;
